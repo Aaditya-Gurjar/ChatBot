@@ -8,6 +8,8 @@ const chatBotCloseBtn = document.querySelector(".close-btn");
 let userMessage = chatInput;
 const API_KEY = "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";//ritapi
 
+
+
 const createChatLi = (message, className) => {
     // creates chat list element with passed message and classname
     const chatLi = document.createElement('li');
@@ -17,6 +19,8 @@ const createChatLi = (message, className) => {
     chatLi.querySelector("p").textContent = message;
     return chatLi;
 }
+
+
 
     const generateResponse = (incomingChatLi) => {
         const API_URL = "https://api.openai.com/v1/chat/completions"
