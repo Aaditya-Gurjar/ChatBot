@@ -6,7 +6,9 @@ const chatBotCloseBtn = document.querySelector(".close-btn");
 
 
 let userMessage = chatInput;
-const API_KEY = "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";//ritapi
+// const API_KEY = "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";//ritapi
+// const API_KEY = "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";//ritapi
+const API_KEY = "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";//ritapi
 
 
 
